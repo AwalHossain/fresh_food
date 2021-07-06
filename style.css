@@ -3,8 +3,7 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,6 +16,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .word-color {
@@ -27,9 +27,10 @@ section {
     width: 40%;
     color: #575757;
     margin-left: 5%;
+
+
+    margin-top: 70px;
 }
-
-
 
 .intro {
 
@@ -37,15 +38,11 @@ section {
     margin-right: px;
 }
 
-.intro p {
+p {
     font-size: 18px;
     color: #939393;
     margin-bottom: 65px;
 }
-
-
-
-
 
 .link-button {
     text-decoration: none;
@@ -54,5 +51,15 @@ section {
     border-radius: 40px;
     font-weight: 400;
     color: white;
+    font-size: 20px;
 
+}
+
+.person {
+    width: 60%;
+
+}
+
+.mid-banner {
+    background-image: url(images/shapes/7.png);
 }
