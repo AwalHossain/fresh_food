@@ -24,7 +24,7 @@ header {
 nav {
     width: 100%;
     background-color: #FEFBF6;
-    color: black;
+
     min-height: 30px;
     position: fixed;
     z-index: 2;
@@ -44,6 +44,15 @@ nav ul {
     justify-content: space-around;
     margin: 0 auto;
     padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover {
+    color: coral;
 }
 
 nav ul .name {
@@ -72,6 +81,12 @@ h3 {
     font-size: 35px;
     margin: 0;
     padding: 0;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 25px;
+
 }
 
 .flexible-content {
@@ -166,6 +181,45 @@ h3 {
     overflow: hidden;
 }
 
+.customer-riview {
+
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+#riview-container h4 {
+    text-align: center;
+}
+
+.riview {
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe {
+    border-radius: 5px;
+    border: 5px solid white;
+    padding: 5px;
+
+}
+
+input[type=submit]:hover {
+    background-color: lightcoral;
+    border: 5px solid coral;
+    color: white;
+}
+
+
+
 
 .end-part {
     width: 100%;
@@ -176,7 +230,16 @@ h3 {
 
 }
 
+aside ul li {
+    list-style: none;
+    margin: 15px;
 
+}
+
+aside ul li a {
+    color: grey;
+    text-decoration: none;
+}
 
 .navigation ul {
     list-style: none;
