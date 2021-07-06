@@ -9,6 +9,7 @@ body {
     padding: 0;
 }
 
+/* Header part included nav bar  */
 header {
     top: 20px;
     z-index: 2;
@@ -64,7 +65,7 @@ nav .menu {
     padding: 30px 20px 20px 20px;
 }
 
-
+/* Different kind heading and their style */
 h1 {
     font-size: 50px;
     font-weight: 900;
@@ -89,6 +90,10 @@ h4 {
 
 }
 
+/* 
+In this part i use a class which is use in two section first and second 
+
+*/
 .flexible-content {
     display: flex;
     margin-bottom: 60px;
@@ -125,6 +130,9 @@ h4 {
     font-size: 20px;
 }
 
+
+/* Second part also aka mid banner start from here */
+
 .person {
     width: 100%;
     position: relative;
@@ -154,7 +162,7 @@ h4 {
 }
 
 
-
+/* Here you find recipe design  */
 .my-recipie {
     text-align: center;
 }
@@ -181,6 +189,8 @@ h4 {
     overflow: hidden;
 }
 
+/* This is customer riview part */
+
 .customer-riview {
 
     display: flex;
@@ -200,26 +210,7 @@ h4 {
 
 }
 
-aside {
-    display: flex;
-    justify-content: space-around;
-}
-
-.subscribe {
-    border-radius: 5px;
-    border: 5px solid white;
-    padding: 5px;
-
-}
-
-input[type=submit]:hover {
-    background-color: lightcoral;
-    border: 5px solid coral;
-    color: white;
-}
-
-
-
+/* And footer or end part start from here */
 
 .end-part {
     width: 100%;
@@ -249,6 +240,24 @@ aside ul li a {
 
 .navigation ul li {
     display: inline-block;
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe {
+    border-radius: 5px;
+    border: 5px solid white;
+    padding: 5px;
+
+}
+
+input[type=submit]:hover {
+    background-color: lightcoral;
+    border: 5px solid coral;
+    color: white;
 }
 
 .social {
