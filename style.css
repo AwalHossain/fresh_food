@@ -9,6 +9,53 @@ body {
     padding: 0;
 }
 
+header {
+    top: 20px;
+    z-index: 2;
+
+}
+
+.logo {
+    width: 122px;
+    height: 70px;
+
+}
+
+nav {
+    width: 100%;
+    background-color: #FEFBF6;
+    color: black;
+    min-height: 30px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 10px 8px 6px -6px #333;
+    -moz-box-shadow: 0 8px 6px -6px #333;
+    box-shadow: 0 8px 6px -6px #333;
+
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul .name {
+    display: block;
+    margin-right: auto;
+}
+
+nav .menu {
+    padding: 30px 20px 20px 20px;
+}
+
+
 h1 {
     font-size: 50px;
     font-weight: 900;
@@ -30,6 +77,8 @@ h3 {
 .flexible-content {
     display: flex;
     margin-bottom: 60px;
+    margin-top: 60px;
+
 }
 
 .word-color {
@@ -91,9 +140,6 @@ p {
 
 .card {
     width: 25%;
-
-
-
     border-radius: 20px;
     box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
     -webkit-box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
