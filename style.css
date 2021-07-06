@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,4 +10,49 @@ body {
 
 h1 {
     font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+}
+
+.word-color {
+    color: #FB934A;
+}
+
+.card {
+    width: 40%;
+    color: #575757;
+    margin-left: 5%;
+}
+
+
+
+.intro {
+
+    margin-top: 200px;
+    margin-right: px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 65px;
+}
+
+
+
+
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(coral, rgb(216, 158, 49));
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-weight: 400;
+    color: white;
+
 }
