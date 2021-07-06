@@ -5,6 +5,8 @@
 body {
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -20,6 +22,7 @@ h2 {
 }
 
 h3 {
+    font-size: 35px;
     margin: 0;
     padding: 0;
 }
@@ -40,12 +43,6 @@ h3 {
 
 
     margin-top: 70px;
-}
-
-.intro {
-
-    margin-top: 200px;
-    margin-right: px;
 }
 
 p {
@@ -73,7 +70,8 @@ p {
 .mid-banner {
 
     background: url(images/shapes/7.png);
-
+    width: 100%;
+    height: auto;
 
 }
 
@@ -104,4 +102,53 @@ p {
     height: 500px;
 
     overflow: hidden;
+}
+
+
+.end-part {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.social {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    opacity: 0.5;
+    transition: all .5s;
+}
+
+a.social:hover {
+    opacity: 1;
+}
+
+.twitter {
+    background-image: url(images/shapes/twitter.svg);
+}
+
+.linkDIn {
+    background-image: url(images/shapes/linkedin.svg);
+}
+
+.github {
+    background-image: url(images/shapes/github.svg);
 }
