@@ -94,9 +94,10 @@ h3 {
     margin-top: 70px;
 }
 
-p {
+.color-paragraph {
     font-size: 18px;
-    color: #939393;
+    color: rgb(106, 186, 189);
+    font-weight: 500;
     margin-bottom: 65px;
 }
 
@@ -105,24 +106,39 @@ p {
     background-image: linear-gradient(coral, rgb(216, 158, 49));
     padding: 20px 30px;
     border-radius: 40px;
-    font-weight: 400;
     color: white;
     font-size: 20px;
-
 }
 
 .person {
-    width: 60%;
+    width: 100%;
+    position: relative;
+    top: 2%;
+    left: -20%;
 
 }
 
+.middle-part {
+    position: relative;
+    top: -20%;
+    left: -5%;
+    bottom: 20%;
+
+}
+
+
+
+
 .mid-banner {
 
-    background: url(images/shapes/7.png);
+    background: url(images/shapes/Frame\ 57.jpg) no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
 
 }
+
+
 
 .my-recipie {
     text-align: center;
@@ -145,7 +161,7 @@ p {
     -webkit-box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
     -moz-box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
     padding: 20px;
-    height: 500px;
+    height: 550px;
 
     overflow: hidden;
 }
