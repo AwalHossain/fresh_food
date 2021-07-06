@@ -14,7 +14,17 @@ h1 {
     padding: 0;
 }
 
-section {
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.flexible-content {
     display: flex;
     margin-bottom: 60px;
 }
@@ -23,7 +33,7 @@ section {
     color: #FB934A;
 }
 
-.card {
+.container {
     width: 40%;
     color: #575757;
     margin-left: 5%;
@@ -61,5 +71,37 @@ p {
 }
 
 .mid-banner {
-    background-image: url(images/shapes/7.png);
+
+    background: url(images/shapes/7.png);
+
+
+}
+
+.my-recipie {
+    text-align: center;
+}
+
+.recipie-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.recipe-photo {
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+
+
+
+    border-radius: 20px;
+    box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
+    -webkit-box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
+    -moz-box-shadow: -3px 0px 29px -9px rgba(34, 34, 0, 0.75);
+    padding: 20px;
+    height: 500px;
+
+    overflow: hidden;
 }
